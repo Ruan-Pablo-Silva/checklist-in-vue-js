@@ -29,7 +29,7 @@
 
                 </div>
 
-                <button class="clear">Limpar tudo</button>
+                <button class="clear" @click="eraseAllData()">Limpar tudo</button>
 
                 <input type="text" placeholder="Escreva uma nova tarefa..." v-model="newToDo.toDoTxt">
                 <button class="add" @click="addNewItemOnToDoList()">Adicionar</button>
